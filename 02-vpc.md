@@ -35,10 +35,10 @@ Subnets help you organize and isolate resources:
 
 ---
 
-### - CIDR 
-### - IGW
-### - RT
-### NAT GW
+**- CIDR**
+**- IGW**
+**- RT**
+**- NAT GW**
 
 
 
