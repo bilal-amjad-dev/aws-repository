@@ -42,6 +42,63 @@ Unlike your real external HDD, EBS volumes are:
 ---
 
 
+
+## 🧩 Running Databases in AWS: EC2 vs RDS
+
+### 🔧 Option 1: EC2 + EBS (Manual Setup)
+
+You install and manage the database yourself.
+
+- 🖥️ **EC2** = Virtual server
+- 💽 **EBS** = Attached storage (like a hard drive)
+- 🛠️ Install MySQL, PostgreSQL, MongoDB, etc.
+- 🔄 You handle backups, scaling, updates
+
+✅ Full control  
+❌ More work, more responsibility
+
+---
+
+### 🤖 Option 2: RDS (Managed Setup)
+
+AWS handles everything behind the scenes.
+
+- 🧠 Choose your DB engine (MySQL, PostgreSQL, etc.)
+- 🚀 AWS launches EC2 + EBS for you
+- 🔗 You connect to the DB endpoint
+
+✅ Easy to use, automatic backups, scaling  
+❌ Less control over the system
+
+---
+
+## 🧠 Summary Table
+
+| Component | Role |
+|-----------|------|
+| **EC2**   | Virtual server (runs the database) |
+| **EBS**   | Storage for EC2 (holds DB files) |
+| **RDS**   | Managed DB service (uses EC2 + EBS internally) |
+
+---
+
+## ❓ When to Use EC2 + EBS for DB?
+
+Use this setup if:
+- You need a **custom DB** (e.g., MongoDB, Cassandra)
+- You want **full OS-level control**
+- You're running a **non-relational** or **experimental** DB
+
+Otherwise, prefer **RDS** for simplicity and reliability.
+
+
+
+
+
+
+---
+
+
 ### 🔍 So Why Use EBS for Databases?
 You use **EBS** when:
 - You want to install **MySQL, PostgreSQL, MongoDB**, etc. yourself
