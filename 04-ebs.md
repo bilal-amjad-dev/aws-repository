@@ -7,7 +7,7 @@
 
 
 ### 🧠 EBS vs RDS – What’s the Difference?
-**| Feature	| EBS + EC2 (Self-Managed DB)	| RDS (Managed DB Service) |**
+| Feature	| EBS + EC2 (Self-Managed DB)	| RDS (Managed DB Service) |
 |---|---|---|
 | 🛠️ Setup	| You install and manage the database	| AWS sets it up for you |
 | ⚙️ Control	| Full control over OS, DB configs	|Limited control, but easier to manage | 
