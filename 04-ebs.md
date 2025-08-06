@@ -11,13 +11,13 @@ Imagine this:
 That’s exactly how EBS (Elastic Block Store) works in AWS.
 
 
-
-
 ### 🧠 Bonus Insight
 Unlike your real external HDD, EBS volumes are:
 
 - **Network-attached**, not physically connected
 - **Scalable**, you can increase size anytime
+
+---
 
 
 ### 📦 Real World vs AWS: Storage Scalability
@@ -29,7 +29,7 @@ Unlike your real external HDD, EBS volumes are:
 | Cost	| Pay upfront for full SSD	| Pay only for what you use | 
 
 
-
+---
 
 
 ### 🔧 How AWS Makes It Easy
@@ -38,24 +38,19 @@ Unlike your real external HDD, EBS volumes are:
 - You can **create snapshots** and restore them to bigger volumes
 
 
+---
 
 
 ### 🔍 So Why Use EBS for Databases?
 You use **EBS** when:
-
-You want to install **MySQL, PostgreSQL, MongoDB**, etc. yourself
-
-You need **custom configurations** or special software
-
-You want **full control** over the server and database
+- You want to install **MySQL, PostgreSQL, MongoDB**, etc. yourself
+- You need **custom configurations** or special software
+- You want **full control** over the server and database
 
 You use **RDS** when:
-
-You want AWS to **manage everything**
-
-You need **automatic backups, scaling, failover**
-
-You don’t want to worry about OS or patching
+- You want AWS to **manage everything**
+- You need **automatic backups, scaling, failover**
+- You don’t want to worry about OS or patching
 
 
 
