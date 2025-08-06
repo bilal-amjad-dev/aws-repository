@@ -58,9 +58,9 @@ Use Case:
 |Component	|Purpose|
 |----------|----------------------------------------|
 |CIDR Block|	Defines IP range for VPC/subnets      |
-IGW        |	Enables internet access for public subnets|
+|IGW        |	Enables internet access for public subnets|
 |Route Table|	Directs traffic within and outside the VPC|
-NAT Gateway	Allows private subnets to access internet securely
+|NAT Gateway|	Allows private subnets to access internet securely|
 
 
 
