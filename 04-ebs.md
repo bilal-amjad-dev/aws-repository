@@ -147,7 +147,7 @@ Use **RDS** when:
 
 ---
 
-### But what about when we run mongodb deployment on k8s . we dont use ebs right?
+### 🤔 But what about when we run mongodb deployment on k8s . we dont use ebs right?
 
 
 ## 🧵 MongoDB + EBS + Kubernetes — The Core Idea
