@@ -34,7 +34,10 @@ Unlike your real external HDD, EBS volumes are:
 
 
 
-
+### 🔧 How AWS Makes It Easy
+- You can **resize EBS volumes** anytime
+- You can **change volume type** (e.g., from slower to faster SSD)
+- You can **create snapshots** and restore them to bigger volumes
 
 
 
