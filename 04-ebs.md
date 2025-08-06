@@ -147,7 +147,43 @@ Use **RDS** when:
 
 ---
 
+### But what about when we run mongodb deployment on k8s . we dont use ebs right?
 
+
+## 🧵 MongoDB + EBS + Kubernetes — The Core Idea
+
+> **Ever wondered how MongoDB stores data in the cloud when running on Kubernetes?**  
+> If you're thinking "Do we still need EBS like we do with EC2?" — you're asking the right question.
+
+### 📦 MongoDB Needs Persistent Storage
+
+- On AWS, the go-to option for persistent storage is **EBS (Elastic Block Store)**.
+
+### 🖥️ MongoDB on EC2
+
+- You **manually attach and manage EBS volumes**.
+- You install MongoDB yourself and configure everything from scratch.
+
+### ☸️ MongoDB on Kubernetes
+
+- You **don’t manage EBS directly**.
+- Instead, you define a **Persistent Volume Claim (PVC)**.
+- Kubernetes uses the PVC to **automatically provision EBS** behind the scenes.
+
+### ✅ Bottom Line
+
+- **MongoDB still uses EBS** in both EC2 and Kubernetes setups.
+- But with Kubernetes, the **complexity is abstracted** — making deployment and scaling much easier.
+
+
+
+
+
+
+
+
+
+---
 
 ## EBS VS S3
 
