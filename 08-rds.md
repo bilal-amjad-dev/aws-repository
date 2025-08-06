@@ -141,9 +141,53 @@ Use **EC2 + EBS** to install and manage your own database engine.
 
 
 
+# 📊 AWS Database Usage: RDS vs DynamoDB vs EC2 + Custom DB
+
+---
+
+## ❓ Which Is Mostly Used?
+
+### ✅ 1. Amazon RDS (Relational)
+- Managed SQL databases (MySQL, PostgreSQL, Oracle, etc.)
+- Ideal for structured data, ACID transactions, and complex queries
+- Common in enterprise systems, e-commerce, and legacy migrations
+- Often paired with EC2 for full-stack apps (e.g., LAMP/MEAN stacks)
+
+### ✅ 2. Amazon DynamoDB (NoSQL)
+- Fully managed NoSQL database with high scalability and low latency
+- Used by companies like Netflix, Lyft, and Airbnb
+- Great for real-time apps, IoT, gaming, mobile, and serverless architectures
+
+### ✅ 3. EC2 + Custom DB (MongoDB, Cassandra, etc.)
+- Used when full control over the database engine is needed
+- Suitable for unsupported DBs in RDS or legacy systems
+- Requires manual setup, scaling, and maintenance
+
+---
+
+## 📊 Usage Summary
+
+| Setup               | Use Case Strengths                              | Popularity Trend       |
+|---------------------|--------------------------------------------------|------------------------|
+| 🗃️ RDS              | Structured data, SQL apps, enterprise systems    | ⭐⭐⭐⭐⭐ (Very High)     |
+| 📦 DynamoDB         | NoSQL, serverless, scalable apps                 | ⭐⭐⭐⭐⭐ (Very High)     |
+| ⚙️ EC2 + Custom DB  | Full control, unsupported DBs, legacy migration  | ⭐⭐⭐ (Moderate)        |
+
+---
+
+## 🧠 Final Thought
+
+Many modern AWS architectures use **RDS or DynamoDB**, depending on the data model.  
+Some even **combine both**—for example:
+
+- RDS for transactional data  
+- DynamoDB for caching or fast lookups
+
+Choose based on your app’s scalability, flexibility, and query needs.
 
 
 
 
 
-Commit Date: -7-Aug-2025
+
+Commit Date: 07-Aug-2025
