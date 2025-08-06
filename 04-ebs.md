@@ -177,11 +177,25 @@ Use **RDS** when:
 
 
 
+### 🛠 Example in Kubernetes:
+You might define a `StorageClass` that uses AWS EBS, then create a `PersistentVolumeClaim` like this:
 
 
 
+```bash
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: mongodb-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 10Gi
+  storageClassName: gp2  # This maps to AWS EBS
 
-
+```
 
 ---
 
