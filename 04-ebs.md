@@ -147,4 +147,22 @@ Use **RDS** when:
 
 ---
 
+
+
+## EBS VS S3
+
+- EBS is like a hard drive for your EC2 instance—great for running software, databases, and OS-level tasks.
+- S3 is like a cloud-based file cabinet—perfect for storing and retrieving files, backups, and static content.
+
+
+
+
+
+
+
+
+
+
+
+
 📅 **Commit Date:** 07-Aug-2025
