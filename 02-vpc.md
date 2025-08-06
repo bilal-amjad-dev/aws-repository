@@ -6,13 +6,15 @@ Think of a VPC (Virtual Private Cloud) as your own private network inside AWS. I
 
 Now inside that VPC, you divide the space into smaller sections called subnets—just like dividing a big room into smaller zones.
 
+---
+
 **🔍 Analogy: Set and Subset (Math Style)**
 
 - VPC is like a set — it defines the total range of IP addresses you control.
 - Subnets are like subsets — they carve out smaller ranges from that main set.
 - Every subnet belongs to one VPC, but a VPC can have multiple subnets.
 
-
+---
 
 **🧱 Why Use Subnets?**
 
@@ -23,7 +25,7 @@ Subnets help you organize and isolate resources:
 - You can control traffic between subnets using route tables, security groups, and network ACLs.
 
 
-
+---
 
 |Concept|	Description|
 |---|---|
@@ -31,8 +33,12 @@ Subnets help you organize and isolate resources:
 |Subnet|	A smaller segment of that network (like a subset)|
 
 
+---
 
-
+### - CIDR 
+### - IGW
+### - RT
+### NAT GW
 
 
 
