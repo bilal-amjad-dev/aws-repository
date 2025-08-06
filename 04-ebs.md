@@ -37,6 +37,7 @@ Unlike your real external HDD, EBS volumes are:
 - You can **change volume type** (e.g., from slower to faster SSD)
 - You can **create snapshots** and restore them to bigger volumes
 
+> Snapshots are backups of EBS volumes. They are stored in S3 and can be used to restore or create new volumes.
 
 ---
 
