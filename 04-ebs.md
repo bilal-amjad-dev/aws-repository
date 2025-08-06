@@ -203,13 +203,13 @@ spec:
 
 I've discovered a helpful trick to understand EBS more deeply.
 
-In GCP, the equivalent service to AWS's EBS is called Persistent Disk.
+In **GCP**, the equivalent service to **AWS's EBS** is called **Persistent Disk**.
 
-When an EC2 instance is terminated, the data on its attached EBS volume is not automatically deleted. The EBS volume and its data persist independently. This is a key feature of EBS, but it's important to note that the default behavior for the root volume of an EC2 instance is often to be deleted upon termination, so you must explicitly change that setting if you want to keep the root volume's data.
+- When an EC2 instance is terminated, the data on its attached EBS volume is not automatically deleted. The EBS volume and its data persist independently. This is a key feature of EBS, but it's important to note that the default behavior for the root volume of an EC2 instance is often to be deleted upon termination, so you must explicitly change that setting if you want to keep the root volume's data.
 
-Similarly, in Kubernetes, when you use a Persistent Volume (PV) that is backed by an EBS volume and your pod is deleted, the data on the EBS volume does not get deleted. This is because the PV and the EBS volume have their own, separate lifecycle from the pod.
+- Similarly, in Kubernetes, when you use a Persistent Volume (PV) that is backed by an EBS volume and your pod is deleted, the data on the EBS volume does not get deleted. This is because the PV and the EBS volume have their own, separate lifecycle from the pod.
 
-A new pod can be created later and can use the same Persistent Volume Claim (PVC) to access the existing data, which is exactly why this type of storage is called "persistent."
+- A new pod can be created later and can use the same Persistent Volume Claim (PVC) to access the existing data, which is exactly why this type of storage is called "persistent."
 
 
 
