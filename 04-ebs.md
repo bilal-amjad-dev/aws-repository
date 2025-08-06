@@ -4,11 +4,9 @@
 ### 💽 EBS in AWS = External Hard Drive for Your Cloud Computer
 Imagine this:
 
-You have a **laptop** → that’s your **EC2 instance**
-
-You plug in an **external hard drive via USB** → that’s your **EBS volume**
-
-**If you shut down your laptop**, the external drive still keeps your data
+- You have a **laptop** → that’s your **EC2 instance**
+- You plug in an **external hard drive via USB** → that’s your **EBS volume**
+- **If you shut down your laptop**, the external drive still keeps your data
 
 That’s exactly how EBS (Elastic Block Store) works in AWS.
 
