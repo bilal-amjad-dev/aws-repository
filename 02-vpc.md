@@ -35,7 +35,7 @@ Subnets help you organize and isolate resources:
 
 ---
 
-- **CIDR**
+- **CIDR (Classless Inter-Domain Routing)**
 - **IGW**
 - **RT**
 - **NAT GW**
@@ -44,8 +44,23 @@ Subnets help you organize and isolate resources:
 
 
 
+### 🌐 2. IGW (Internet Gateway)
+- An Internet Gateway is what lets your VPC connect to the internet.
+- You attach it to your VPC, and then configure your route tables to send traffic through it.
+- Without an IGW, your instances are isolated from the public internet.
+
+Use Case:
+- Needed for public-facing servers, like web apps or APIs.
 
 
+
+
+|Component	|Purpose|
+|----------|----------------------------------------|
+|CIDR Block|	Defines IP range for VPC/subnets      |
+IGW        |	Enables internet access for public subnets|
+|Route Table|	Directs traffic within and outside the VPC|
+NAT Gateway	Allows private subnets to access internet securely
 
 
 
