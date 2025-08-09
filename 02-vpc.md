@@ -64,5 +64,78 @@ Use Case:
 
 
 
+---
+
+
+## VPC
+- VPC is a Virtual Network or Data Centre inside AWS for One Client 
+- It is logically isolated from other virtual n/w in the AWS cloud
+- Once we create vpc, following things will be automatically created:
+	 - DHCP (Dynamic Host Configuration Protocol), 
+	- NACL, (Network Access Control List)
+	- Security Group 
+
+
+
+## Subnet
+
+- The different subnets within a VPC cannot have same cidr
+- Types of subnet:
+    - Public subnet
+    - Private subnet
+ 
+|Public Subnet|Private Subnet|
+|---|---|
+||We don't add route to go intenret in ROUTE TABLE |
+|If a subnet has a route to the internet gateway `0.0.0.0/0:IGW` in ROUTE TABLE, the subnet is known as a private subnet. |If a subnet does not have a route to the internet gateway `0.0.0.0/0:IGW` in ROUTE TABLE, the subnet is known as a private subnet. |
+|for public subnet: route in ROUTE TABLE: 0.0.0.0/0 IGW |for private subnet: roun in ROUTE TABLE: 0.0.0.0/0 NAT |
+||no need to assign public ip address to your private instance |
+
+
+
+## Internet Gateway
+- connects a vpc to the Internet 
+- default vpc is already attached with on Internet Gateway
+- custom vpc ko Internet Gateway sa connect krna parta ha
+
+## Implied Router
+
+## NAT Gateway
+- To create a NAT Gateway, you must Specify the public Subnet in which the NAT Gateway Should Reside 
+- NAT GW ko Elastic IP dani hi pry gi 
+- bna elastic ip ka NAT GW kam ni kry ga
+- After deleting NAT GW, release IP address, if you don't relase, your will be kept charged.
+
+## Security Group
+- it is a kind of firewall, ya filter out kr day ga 
+- security groups instances ka aupr lgy hoty hain 
+
+
+### Technical Points about VPC
+- vpc is always created in region
+- subnet is always created in availability zone
+- NAT gateway is always created in public subnet 
+- kia aik vpc 2 regions a create ho skta ha -> no
+- router is always created inside vpc
+- Implied router kahan lga hua hota ha? vpc ka andr and dono az ka bahr
+- implied router vpc ka andr and availabilth zones ka bhar lga hua hota ha and it connects vpc to the Internet Gateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Source: Technical Guftgu
 Source: Copilot ai
 Commit Date: 08-Aug-2025
+Commit Date: 09-Aug-2025
