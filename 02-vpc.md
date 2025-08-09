@@ -100,6 +100,16 @@ Use Case:
 
 ## Implied Router
 
+- router is alwasy created inside vpc 
+- it is not physical ruter.
+- we dont need to do its configuration 
+- no need to put routing protocol 
+- you only need to add route inside its route table 
+
+
+
+
+
 ## NAT Gateway
 - To create a NAT Gateway, you must Specify the public Subnet in which the NAT Gateway Should Reside 
 - NAT GW ko Elastic IP dani hi pry gi 
@@ -112,8 +122,10 @@ Use Case:
 
 
 ### Technical Points about VPC
-- vpc is always created in region
-- subnet is always created in availability zone
+- `vpc` is always created in region
+- `subnet` is always created in availability zone
+- `Internet gw` region ki boundry pr lga hua hota ha.
+- implied `Router` vpc ka andr and azs ka bhar lga hua hota ha
 - NAT gateway is always created in public subnet 
 - kia aik vpc 2 regions a create ho skta ha -> no
 - router is always created inside vpc
