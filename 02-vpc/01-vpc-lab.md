@@ -48,6 +48,26 @@
 ### Implied Router 
 
 
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f2eda6bf-92e8-4085-ae54-5119344a1ba8" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b4f66410-39f7-4911-98bf-7d30bee2d460" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5a122bcc-4811-422a-b31b-6243f5250886" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4ead28c6-5b24-4a6d-bbd4-90f205eb6dc1" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/23511bf4-9ff4-4853-bbab-ab8d8289aa31" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ada2a097-ec45-4810-baef-5cbf4fc44a8d" />
+
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b81e544d-80ad-42aa-af35-d4871ac42a4c" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e5fc64e3-f2cc-4cfd-b104-3a785b8ca254" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b51d20ee-5ab2-4918-a3ec-1a8754e434e0" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/a1f0af53-3feb-470f-8748-d237418259f3" />
 
 
 
@@ -60,7 +80,5 @@
 
 
 
-
-
-
+Commit Date: 11-Aug-2025
 
