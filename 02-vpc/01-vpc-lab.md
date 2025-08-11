@@ -82,10 +82,13 @@
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5a122bcc-4811-422a-b31b-6243f5250886" />
 
 - **Associate route table to Subnet**
-  - Select vpc
-  - and click save association
+- Select subnet
+- and click save association
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4ead28c6-5b24-4a6d-bbd4-90f205eb6dc1" />
-  - route table associated successfully
+
+- route table associated successfully
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/23511bf4-9ff4-4853-bbab-ab8d8289aa31" />
 
 
