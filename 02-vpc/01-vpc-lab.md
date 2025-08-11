@@ -91,8 +91,12 @@
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/23511bf4-9ff4-4853-bbab-ab8d8289aa31" />
 
 
-- **Add route 0.0.0.0/0:Internet Gateway**
+- route table created successfully
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ada2a097-ec45-4810-baef-5cbf4fc44a8d" />
+
+- **Add route 0.0.0.0/0:Internet Gateway**
+
 
   - Click add route
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b81e544d-80ad-42aa-af35-d4871ac42a4c" />
