@@ -66,24 +66,33 @@
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1baeb8cc-e553-4fb2-9ab1-b1420a2fed2b" />
 
 
-
+--- 
 
 ### Implied Router 
 
+- Click create route table
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f2eda6bf-92e8-4085-ae54-5119344a1ba8" />
 
+- Select VPC
+- and click create route table
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b4f66410-39f7-4911-98bf-7d30bee2d460" />
 
+- route table created successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5a122bcc-4811-422a-b31b-6243f5250886" />
 
+- **Associate route table to Subnet**
+  - Select vpc
+  - and click save association
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4ead28c6-5b24-4a6d-bbd4-90f205eb6dc1" />
-
+  - route table associated successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/23511bf4-9ff4-4853-bbab-ab8d8289aa31" />
 
+
+- **Add route 0.0.0.0/0:Internet Gateway**
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ada2a097-ec45-4810-baef-5cbf4fc44a8d" />
 
-
+  - Click add route
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b81e544d-80ad-42aa-af35-d4871ac42a4c" />
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e5fc64e3-f2cc-4cfd-b104-3a785b8ca254" />
