@@ -95,7 +95,7 @@ but these things are needed:
 - route table created successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5a122bcc-4811-422a-b31b-6243f5250886" />
 
-- **Associate route table to Subnet**
+- **Associate route table to Subnet (subet aur implied router ko aaps ma jorna)**
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4ead28c6-5b24-4a6d-bbd4-90f205eb6dc1" />
 
