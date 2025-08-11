@@ -1,31 +1,42 @@
 ## VPC with a Public Subnet
 
 ### VPC 
-
+- Click create VPC
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ffb73ad0-5ed5-4266-a7f9-a9a1ece22301" />
 
+- Name your VPC
+- Type CIDR `10.0.0.0/16`
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ee430fd3-0d73-49ef-b40f-11b19e7d612b" />
 
+- Click create
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/31bff9eb-e74a-4817-84a4-5d82b0d69367" />
 
+- vpc created successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/32c8f03f-3072-41a2-a3af-735ae2f9c604" />
 
+---
 
 ### Subnet 
 
-
+- Click create subnet
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6f913021-abb6-45ef-9745-13e86d319b4e" />
 
+- Select VPC
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9566af2a-12c1-49db-aaee-154b6e1f0f9c" />
 
+- Name your subnet
+- Select Availability Zone
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/7e98d4a0-fa1b-4eec-97e6-0b246fdb2771" />
 
+- Type CIDR `10.0.0.0/24`
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5b5cb305-f46b-4074-bdf2-69dfea25c59a" />
 
-
+- subnet created successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/d574219a-5cdb-4be9-ab11-35307e364f28" />
 
 
+
+--- 
 
 ### Internet Gateway
 
