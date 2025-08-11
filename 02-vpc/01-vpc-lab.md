@@ -143,16 +143,21 @@ but these things are needed:
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/21ceacd4-eaa3-4e1e-9314-f13bf1764d08" />
 
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e3b50280-42f3-4181-9265-6c9c74b76c3b" />
 
 - Note:
 - Select vpc
 - Select subnet in which you want to create ec2
 
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6e71b2c9-a2d7-4a9c-98f8-878a406f9208" />
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e3b50280-42f3-4181-9265-6c9c74b76c3b" />
+
+
 
 - Note:
 - Enable, we have enabled public auto-assign public ip
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6e71b2c9-a2d7-4a9c-98f8-878a406f9208" />
+
+
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/42d2ed7c-c96d-4833-870d-51c890e67cc6" />
