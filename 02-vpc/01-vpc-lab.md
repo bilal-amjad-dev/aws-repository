@@ -1,6 +1,6 @@
-# Create VPC with a Public Subnet
+## Create VPC with a Public Subnet
 
-## VPC 
+### VPC 
 - Click create VPC
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ffb73ad0-5ed5-4266-a7f9-a9a1ece22301" />
 
@@ -8,7 +8,7 @@
 - Type CIDR `10.0.0.0/16`
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ee430fd3-0d73-49ef-b40f-11b19e7d612b" />
 
-- Click create
+- and click create
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/31bff9eb-e74a-4817-84a4-5d82b0d69367" />
 
 - vpc created successfully
@@ -16,7 +16,7 @@
 
 ---
 
-## Subnet 
+### Subnet 
 
 - Click create subnet
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6f913021-abb6-45ef-9745-13e86d319b4e" />
@@ -26,6 +26,7 @@
 
 - Name your subnet
 - Select Availability Zone
+- and click create
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/7e98d4a0-fa1b-4eec-97e6-0b246fdb2771" />
 
 - Type CIDR `10.0.0.0/24`
@@ -38,17 +39,25 @@
 
 --- 
 
-## Internet Gateway
+### Internet Gateway
 
 - Click create internet gateway
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/461982ae-7273-49b1-aba1-03bb430f72eb" />
 
+- Name your internet gateway
+- and click create
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e12b5833-43b8-47cc-8581-21900b0d045d" />
 
+- internet gateway created successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f3078a04-ac15-45ac-a53d-7ed0bb92a5c2" />
 
+- **Attach to VPC**
+  - Select vpc
+  - and click attach
+    
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/14ad1b18-1ec1-4794-abb7-6c61bf4e0f24" />
-
+ 
+  - internet gateway attached successfully
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/552204cd-0205-45f6-a169-4d7c0a706e35" />
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1baeb8cc-e553-4fb2-9ab1-b1420a2fed2b" />
@@ -56,7 +65,7 @@
 
 
 
-## Implied Router 
+### Implied Router 
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f2eda6bf-92e8-4085-ae54-5119344a1ba8" />
