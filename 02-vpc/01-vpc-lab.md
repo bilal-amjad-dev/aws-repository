@@ -1,6 +1,6 @@
-## VPC with a Public Subnet
+# Create VPC with a Public Subnet
 
-### VPC 
+## VPC 
 - Click create VPC
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ffb73ad0-5ed5-4266-a7f9-a9a1ece22301" />
 
@@ -16,7 +16,7 @@
 
 ---
 
-### Subnet 
+## Subnet 
 
 - Click create subnet
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6f913021-abb6-45ef-9745-13e86d319b4e" />
@@ -38,9 +38,9 @@
 
 --- 
 
-### Internet Gateway
+## Internet Gateway
 
-
+- Click create internet gateway
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/461982ae-7273-49b1-aba1-03bb430f72eb" />
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e12b5833-43b8-47cc-8581-21900b0d045d" />
@@ -56,7 +56,7 @@
 
 
 
-### Implied Router 
+## Implied Router 
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/f2eda6bf-92e8-4085-ae54-5119344a1ba8" />
@@ -85,7 +85,7 @@
 
 --- 
 --- 
-## Create EC2 in the same vpc and public subnet 
+### Create EC2 in the same vpc and public subnet 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5e0e42c6-7e65-4e97-8c2f-001e8cc5c243" />
 
