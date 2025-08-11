@@ -10,7 +10,7 @@ Normally, we can create:
 but these things are needed:
 
 - attch igw with vpc
-- route table association with subnet
+- route table association with subnet (subet aur implied router ko aaps ma jorna)
 - add route 0.0.0.0/0:igw in route table
 
 
