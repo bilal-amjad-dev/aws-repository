@@ -26,10 +26,11 @@
 
 - Name your subnet
 - Select Availability Zone
-- and click create
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/7e98d4a0-fa1b-4eec-97e6-0b246fdb2771" />
 
 - Type CIDR `10.0.0.0/24`
+- and click create
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5b5cb305-f46b-4074-bdf2-69dfea25c59a" />
 
 - subnet created successfully
@@ -53,12 +54,14 @@
 
 - **Attach to VPC**
   - Select vpc
-  - and click attach
     
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/14ad1b18-1ec1-4794-abb7-6c61bf4e0f24" />
  
-  - internet gateway attached successfully
+  -  and click attach
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/552204cd-0205-45f6-a169-4d7c0a706e35" />
+
+   - internet gateway attached successfully
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1baeb8cc-e553-4fb2-9ab1-b1420a2fed2b" />
 
