@@ -98,12 +98,19 @@
 - **Add route 0.0.0.0/0:Internet Gateway**
 
 
-  - Click add route
+  - Click Edit route
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b81e544d-80ad-42aa-af35-d4871ac42a4c" />
 
+- click Add route
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e5fc64e3-f2cc-4cfd-b104-3a785b8ca254" />
 
+
+- 0.0.0.0/0: igw
+- click save changes
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b51d20ee-5ab2-4918-a3ec-1a8754e434e0" />
+
+- route added successfully 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/a1f0af53-3feb-470f-8748-d237418259f3" />
 
