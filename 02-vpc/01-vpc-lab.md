@@ -72,6 +72,26 @@
 
 
 
+--- 
+--- 
+## Create EC2 in the same vpc and public subnet 
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/5e0e42c6-7e65-4e97-8c2f-001e8cc5c243" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/45add824-6dd4-4902-92b0-3eafa22b5470" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/2d368edb-d2ed-47e7-acc5-bdbafebe2e5a" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/21ceacd4-eaa3-4e1e-9314-f13bf1764d08" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e3b50280-42f3-4181-9265-6c9c74b76c3b" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6e71b2c9-a2d7-4a9c-98f8-878a406f9208" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/42d2ed7c-c96d-4833-870d-51c890e67cc6" />
+
+
+
 
 
 
