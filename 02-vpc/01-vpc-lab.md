@@ -1,5 +1,19 @@
 ## Create VPC with a Public Subnet
 
+
+Normally, we can create:
+- vpc,
+- subnet,
+- igw,
+- and route table.
+
+but these things are needed:
+
+- attch igw with vpc
+- route table association with subnet
+- add route 0.0.0.0/0:igw in route table
+
+
 ### VPC 
 - Click create VPC
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/ffb73ad0-5ed5-4266-a7f9-a9a1ece22301" />
@@ -131,7 +145,15 @@
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e3b50280-42f3-4181-9265-6c9c74b76c3b" />
 
+- Note:
+- Select vpc
+- Select subnet in which you want to create ec2
+
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/6e71b2c9-a2d7-4a9c-98f8-878a406f9208" />
+
+- Note:
+- Enable, we have enabled public auto-assign public ip
+
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/42d2ed7c-c96d-4833-870d-51c890e67cc6" />
 
