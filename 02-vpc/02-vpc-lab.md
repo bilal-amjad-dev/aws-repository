@@ -1,6 +1,22 @@
 ### Create VPC with a Public and Private subnet
 
 
+- VPc
+- Subnet
+	- Public Subnet
+	- Private Subnet
+- Internet Gateway
+- Implied Router
+	- Implied Router for Public subnet
+	- Implied Router for Private subnet
+
+- attach igw with vpc
+- Public Route table association with Public subnet
+- Add route 0.0.0.0/0:InternetGW
+- Private Route table association with Private subnet
+- Add route 0.0.0.0/0:NATGW
+
+
 ### VPC
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/315ea967-050a-4964-b470-0d1955c9d9ad" />
