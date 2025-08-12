@@ -184,47 +184,8 @@
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/a99c57ab-86eb-4137-abac-f4255416d26e" />
 
-
-
-
-
-
-
-### NAT Gateway
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9ce92d72-b231-41a7-9e27-2240235ac886" />
-
-- Always remember: NAT Gateway is always created in Public Subnet
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3872ac04-7730-44a9-abce-082bc215fdf0" />
-
-- Always remember: NAT Gateway always take ElasticIP, Allocate ElasticIP, 
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/d76e4b7a-1256-422a-973a-ec892b6a742f" />
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1cd432b7-73a6-487f-969f-91169425f2d3" />
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9677778c-363c-40c8-a247-710af10b788f" />
-
-
-
-### Edit Route of Private route table: 0.0.0.0/0: NATGW
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4e1c232b-80b8-4703-9017-9291db4ab2d5" />
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/2c293612-bb71-45d2-8599-1e65cb68fae2" />
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e9f4f1a9-c93b-4eda-84ae-d49dbdae1cef" />
-
-
-
 ---
 
-Diagram:
-
-<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1027e97e-123b-4377-9905-e7a3703c6e4b" />
-
----
 
 
 Now i can't access private subnet because i don't have its public ip. 
@@ -253,9 +214,54 @@ you can see ya Internet pa ni ja pa rha. is gareeb aadmi ka pass rasta hi ni ha 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4d497d43-0ddd-41d4-9b78-0e0ca53fae1d" />
 
+
+
+# NAT Gateway
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9ce92d72-b231-41a7-9e27-2240235ac886" />
+
+- Always remember: NAT Gateway is always created in Public Subnet
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/3872ac04-7730-44a9-abce-082bc215fdf0" />
+
+- Always remember: NAT Gateway always take ElasticIP, Allocate ElasticIP, 
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/d76e4b7a-1256-422a-973a-ec892b6a742f" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1cd432b7-73a6-487f-969f-91169425f2d3" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/9677778c-363c-40c8-a247-710af10b788f" />
+
+
+
+### Edit Route of Private route table: 0.0.0.0/0: NATGW
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/4e1c232b-80b8-4703-9017-9291db4ab2d5" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/2c293612-bb71-45d2-8599-1e65cb68fae2" />
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/e9f4f1a9-c93b-4eda-84ae-d49dbdae1cef" />
+
+
+
+
+
 - Aap dekh skty hain, respond aana shuru ho gya ha 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/794a6aa6-6802-4a9a-8590-c82f4d206eca" />
+
+
+---
+
+Diagram:
+
+<img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/1027e97e-123b-4377-9905-e7a3703c6e4b" />
+
+---
+
+
+
+
 
 
 
