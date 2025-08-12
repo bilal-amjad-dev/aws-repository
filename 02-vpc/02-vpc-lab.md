@@ -10,11 +10,16 @@
 	- Implied Router for Public subnet
 	- Implied Router for Private subnet
 
+---
+
 - attach igw with vpc
-- Public Route table association with Public subnet
-- Add route 0.0.0.0/0:InternetGW
-- Private Route table association with Private subnet
-- Add route 0.0.0.0/0:NATGW
+
+- Assocation of Implied Public Router and Public subnet (Implied Public Router ko Public subnet ka sath associate kr dia aur bta dia ka jo request yahan pa aai gi wo yahan cli jay gi 0.0.0.0/0:InternetGW)
+	- Add route 0.0.0.0/0:InternetGW
+
+- Assocation of Implied Private Router and Private subnet (Implied Private Router ko Private subnet ka sath associate kr dia aur bta dia ka jo request yahan pa aai gi wo yahan cli jay gi 0.0.0.0/0:NAT GW)
+- Create NAT Gateway
+ 	-  Add route 0.0.0.0/0:NATGW
 
 
 ### VPC
@@ -110,7 +115,8 @@
 
 
 
-    - Public Route table association with Public subnet
+- Assocation of Implied Public Router and Public subnet (Implied Public Router ko Public subnet ka sath associate kr dia aur bta dia ka jo request yahan pa aai gi wo yahan cli jay gi 0.0.0.0/0:InternetGW)
+
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/2c33aa7f-a521-44a6-a630-5f4b5bf5c345" />
@@ -121,7 +127,7 @@
 
 
 
-    - add route 0.0.0.0/0:igw in route table
+- add route 0.0.0.0/0:igw in route table
     
     
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/cf15c111-75fe-4bbd-812a-21449db3b932" />
@@ -133,7 +139,7 @@
     
     
     
-    - Private Route table association with Private subnet
+- Assocation of Implied Private Router and Private subnet (Implied Private Router ko Private subnet ka sath associate kr dia aur bta dia ka jo request yahan pa aai gi wo yahan cli jay gi 0.0.0.0/0:NAT GW)
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/bca80dba-0227-4b12-8eb0-0b052b7b5838" />
