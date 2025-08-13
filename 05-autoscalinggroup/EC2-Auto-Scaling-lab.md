@@ -1,4 +1,4 @@
-<img width="1600" height="900" alt="asg - rahulwagh - 20 - lb - select vpc and its subnets " src="https://github.com/user-attachments/assets/4c93f90a-9c9b-4683-a7d3-3aa3607ff377" />
+// <img width="1600" height="900" alt="asg - rahulwagh - 20 - lb - select vpc and its subnets " src="https://github.com/user-attachments/assets/4c93f90a-9c9b-4683-a7d3-3aa3607ff377" />
 
 
 <img width="1600" height="900" alt="Image" src="https://github.com/user-attachments/assets/b78cbf9e-d77a-4ff4-b14a-bf7a3b18c14d" />
