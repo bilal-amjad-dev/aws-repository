@@ -18,7 +18,7 @@ In this article, we have:
 
 - NAT Gateway (2 total): One in each public subnet
 
-(here don't forgett: 
+(here don't forget: 
 - attachment of igw and vpc
 - association of implied router and subnet
 - add route 0.0.0.0/0:InternetGW)
