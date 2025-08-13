@@ -18,7 +18,10 @@ In this article, we have:
 
 - NAT Gateway (2 total): One in each public subnet
 
-
+(here don't forgett: 
+- attachment of igw and vpc
+- association of implied router and subnet
+- add route 0.0.0.0/0:InternetGW)
 
 The author of the blog post created only one EC2 instance and placed it in a single public subnet. This is a common approach for a **simple demonstration or a non-critical development environment**, but it's not the best practice for a production website.
 
