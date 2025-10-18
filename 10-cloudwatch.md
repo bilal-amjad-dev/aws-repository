@@ -18,6 +18,15 @@ resource "aws_cloudwatch_event_rule" "daily_schedule" {
 
 ## 2\. `aws_cloudwatch_event_target` (The Target/Link) 🎯
 
+
+```bash
+aws_cloudwatch_event_rule:
+yani ya cronjob provide krta ha
+
+aws_cloudwatch_event_target:
+ya lambda function ko target krta ha 
+```
+
 ```terraform
 resource "aws_cloudwatch_event_target" "lambda_target" {
   rule = aws_cloudwatch_event_rule.daily_schedule.name
