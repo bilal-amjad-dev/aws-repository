@@ -1,4 +1,3 @@
-October 18, 2025.
 
 # Question 1: 
 
@@ -104,3 +103,5 @@ $$\text{User/Application Request} \xrightarrow{\text{Runs Code}} \text{AWS Servi
 Aur humara automation is data ko yahan se uthaata hai:
 
 $$\text{CloudWatch Log Group} \xrightarrow{\text{Lambda Export Task}} \text{S3 Bucket}$$
+
+Commit date: October 18, 2025.
