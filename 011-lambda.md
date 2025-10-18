@@ -33,3 +33,5 @@ Lambda function ki default seeting hoti hai ke koi be bahar ki service usay chal
 aws_lambda_permission resource Lambda ki Access Policy mein ek Ijazat Nama (Permission Slip) add karta hai.
 
 Agar aap yeh permission nahi denge, to EventBridge ka schedule ban jaye ga, target set ho jaye ga, magar jab woh chalne ki koshish kare ga, to Lambda Access Denied error de kar trigger ko fail kar dega
+
+Commit date: October 18, 2025.
