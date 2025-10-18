@@ -1,3 +1,5 @@
+October 18, 2025.
+
 # Question 1: 
 
 Jee haan, aapka **samajhna bilkul theek** hai\! EventBridge (jo pehle CloudWatch Events tha) isi tarah kaam karta hai:
