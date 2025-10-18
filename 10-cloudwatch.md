@@ -19,13 +19,6 @@ resource "aws_cloudwatch_event_rule" "daily_schedule" {
 ## 2\. `aws_cloudwatch_event_target` (The Target/Link) 🎯
 
 
-```bash
-aws_cloudwatch_event_rule:
-yani ya cronjob provide krta ha
-
-aws_cloudwatch_event_target:
-ya lambda function ko target krta ha 
-```
 
 ```terraform
 resource "aws_cloudwatch_event_target" "lambda_target" {
@@ -56,6 +49,15 @@ Yeh **loosely coupled** tareeqa hai, jahan schedule aur action alag alag hain, j
 بہت اہم سوال ہے\! یہ سمجھنا ضروری ہے کہ CloudWatch Logs mein data aata kahan se hai aur hum kiska log export kar rahe hain. 🧐
 
 -----
+
+
+```bash
+aws_cloudwatch_event_rule:
+yani ya cronjob provide krta ha
+
+aws_cloudwatch_event_target:
+ya lambda function ko target krta ha 
+```
 
 ## 1\. CloudWatch Logs Mein Kiska Data Hota Hai? (What Data is in CloudWatch Logs?)
 
