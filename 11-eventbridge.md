@@ -1,0 +1,1 @@
+CloudWatchEvent triggers Lambda function
