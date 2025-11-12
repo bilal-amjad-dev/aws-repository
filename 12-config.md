@@ -96,5 +96,45 @@ To short main:
 
 
 ---
+---
+
+Question:
+
+AWS Config detect karta hai ⚠️
+Lambda fix karta hai 🔧
+then eventbridge ko kasy pta chalty ha?
+
+
+Bahut acha sawal Bilal 👏
+
+Yahan pe **EventBridge** ka kaam hota hai “*middleman*” ka —
+wo **AWS Config** ke events ko **listen (sunta)** rehta hai.
+
+Chalo simple flow samjho 👇
+
+1. **AWS Config** jab detect karta hai ke koi resource (jaise S3 bucket) **non-compliant** hai,
+   to wo ek **event generate** karta hai — is event main likha hota hai:
+
+   > “This S3 bucket is public, and it violates the rule `s3-bucket-public-read-prohibited`.”
+
+2. Ye event automatically **EventBridge** ko milta hai,
+   kyunki AWS Config apne findings EventBridge pe bhej sakta hai.
+
+3. **EventBridge rule** hum set karte hain, jisme hum likhte hain:
+
+   > “Agar AWS Config se koi event aaye jisme compliance = NON_COMPLIANT ho,
+   > to Lambda function trigger karo.”
+
+4. Jab wo event aata hai, EventBridge **us condition ko match** karta hai
+   aur **Lambda function ko invoke** karta hai.
+
+To simple words main:
+
+> AWS Config → Event bhejta hai ⚡
+> EventBridge → Event pakadta hai aur Lambda chala deta hai 🚀
+> Lambda → Fix kar deta hai (bucket private kar deta hai) 🔒
+
+
+
 
 
