@@ -61,5 +61,40 @@ Ye information auditors ya security team ko madad karti hai **track aur verify**
 Compliance ka matlab hai **rules follow ho rahe hain ya nahi**,
 Audit ka matlab hai **kisne kya badla aur kab**, uska pura record.
 
+---
+---
+
+Quesiton:
+
+yani aws config sirf ya bta skta ha ko ya public compliance ni ha (yani rules ko follow ni kr rhi), wo kud us bucket ko private ni kr skta right?
+
+Bilkul ✅ 100% sahi samjha tumne Bilal 👏
+
+**AWS Config khud bucket ko private nahi karta.**
+Uska kaam sirf ye hai ke wo:
+
+* Har resource ka configuration record kare,
+* Check kare ke wo rules follow kar rahe hain ya nahi,
+* Aur agar rule violate ho raha ho to “**Non-compliant**” mark kare.
+
+Lekin **fix karna** (yaani automatically bucket ko private banana)
+ye AWS Config ka kaam nahi hai —
+ye kaam **Lambda function** karta hai 🔧
+
+👉 Flow kuch aisa hota hai:
+
+1. AWS Config detect karta hai ke bucket **public** hai.
+2. AWS Config finding bhejta hai **EventBridge** ko.
+3. **EventBridge** trigger karta hai ek **Lambda function**.
+4. Lambda code run hota hai jo S3 bucket ka **public access block enable** karta hai.
+5. Phir AWS Config dobara check karta hai aur bucket **Compliant** dikhata hai ✅
+
+To short main:
+
+> AWS Config detect karta hai ⚠️
+> Lambda fix karta hai 🔧
+
+
+---
 
 
