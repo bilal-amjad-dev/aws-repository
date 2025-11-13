@@ -5,6 +5,10 @@ Nov13, 2025.
 
 ---
 
+AWS Security Hub ek aisi jagah hai jahaan aapke poore AWS account ki security se related saari zaroori khabrein (alerts/reports) ek hi jagah aakar jama hoti hain.
+
+---
+
 ### 💡 Analogy (Aasan Misaal)
 
 Aapka pura security system is tarah kaam karta hai:
