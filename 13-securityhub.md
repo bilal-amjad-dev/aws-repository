@@ -1,6 +1,19 @@
 
-
+Nov13, 2025.
 <img width="1055" height="574" alt="image" src="https://github.com/user-attachments/assets/7cc186af-a22c-4eb8-a67b-5132685c0283" />
 
 
+---
 
+### 💡 Analogy (Aasan Misaal)
+
+Aapka pura security system is tarah kaam karta hai:
+
+| Tool | Role | Maqsad (Purpose) |
+| :--- | :--- | :--- |
+| **AWS Config** | **Police Patrol Car** | Yeh woh tool hai jo aapke S3 bucket par jaakar check karta hai ki kya woh public hai. **(Problem Detect karna)** |
+| **Security Hub** | **Police Station Command Center** | Jab Config ko public bucket milta hai, toh woh Security Hub ko report bhej deta hai. Security Hub us report ko **standard format** mein log karta hai (jise **Finding** kehte hain). **(Report Organize karna)** |
+| **EventBridge** | **Radio Dispatcher** | Yeh Command Center se report uthata hai. |
+| **Lambda** | **Repair Team** | Dispatcher se report lekar S3 bucket ko theek karta hai. |
+
+---
