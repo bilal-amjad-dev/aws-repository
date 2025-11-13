@@ -6,7 +6,11 @@
 
 
 12-Nov-2025.
+13-nov-2025.
 
+- aws config NEEDS a bucket to store 
+
+> AWS Config ko ek jagah chahiye hoti hai apna data store karne ke liye
 
 <img width="978" height="571" alt="image" src="https://github.com/user-attachments/assets/21b48b22-2656-4a85-8bd6-e25b8998e2cd" />
 
