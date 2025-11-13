@@ -9,6 +9,10 @@ AWS Security Hub ek aisi jagah hai jahaan aapke poore AWS account ki security se
 
 ---
 
+Security Hub ka kaam khud problem dhoondhna nahin hai, balki doosre tools se aane wali khabron (reports) ko samajhna, organize karna, aur unko standard banana hai.
+
+---
+
 ### 💡 Analogy (Aasan Misaal)
 
 Aapka pura security system is tarah kaam karta hai:
