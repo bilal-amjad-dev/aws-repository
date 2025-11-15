@@ -13,7 +13,7 @@ IAM mein **User, Role, aur Policy** hi woh teen zaroori hisse hain jo tay karte 
 | Kirdar (Entity) | Asaan Matlab | Maqsad |
 | :--- | :--- | :--- |
 | **User** | **Asal Aadmi** (Ali, Bilal, Dev Tester) | Yeh woh **physical person** hai jiska ek username aur password hota hai. User ek account se logon karke hamesha **maujood** rehta hai. |
-| **Role** | **Temporary Dress/Wardi** (Waqti zimmedari) | Yeh **aadmi nahin** hai. Yeh ek set of permissions hain jo koi bhi (User, Service, ya doosra AWS account) **thora waqt** ke liye le sakta hai. |
+| **Role** | **Temporary Dress/Wardi** (Waqti zimmedari) | Yeh **aadmi nahin** hai. Yeh ek set of permissions hain jo koi bhi (User, Service (jaise **Lambda**), ya doosra AWS account) **thora waqt** ke liye le sakta hai. |
 | **Policy** | **Qanoon/Permissions** (Kya Karne Ki Ijazat Hai) | Yeh woh **JSON document** hai jo batata hai ki **`Effect: Allow/Deny`** hai, kis **`Action`** (jaise `s3:GetObject`) ki ijazat hai, aur kis **`Resource`** par. Policy ko hamesha **User** ya **Role** ke saath attach kiya jaata hai. |
 
 ---
