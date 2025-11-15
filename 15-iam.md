@@ -44,6 +44,9 @@ Zaroor. Aapne **IAM (Identity and Access Management)** ke teen zaroori hisson ke
 
 ---
 
+# yani hum policy role ka sath attach krty hain 
+
+---
 
 ### 1. User (The Person)
 
