@@ -34,6 +34,16 @@ Zaroor. Aapne **IAM (Identity and Access Management)** ke teen zaroori hisson ke
 
 
 ---
+| Entity | Simple Meaning | Correct Statement |
+| :--- | :--- | :--- |
+| **S3 Policy** | **Permissions** | **Policy = Permission** (Sahi) |
+| **IAM Policy** | **Permissions** | **Policy = Permission** (Sahi) |
+| **IAM Role** | **Temporary Identity** | **Role = Wo jo Permission (Policy) Use Karta Hai** |
+
+
+
+---
+
 
 ### 1. User (The Person)
 
