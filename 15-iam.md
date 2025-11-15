@@ -18,6 +18,23 @@ IAM mein **User, Role, aur Policy** hi woh teen zaroori hisse hain jo tay karte 
 
 ---
 
+Zaroor. Aapne **IAM (Identity and Access Management)** ke teen zaroori hisson ke baare mein poocha. Yahaan unka **crisp aur mukhtasar** jawab hai:
+
+---
+
+## 🔐 IAM: User, Role, Aur Policy
+
+| IAM Component | Asaan Maqsad | S3/Lambda Automation Mein Kaam |
+| :--- | :--- | :--- |
+| **User** | **Asal Aadmi** (Physical Person) | Aap aur aapki team ke log jo console mein login karte hain. |
+| **Role** | **Waqti Wardi / Temporary Identity** | Koi bhi service (jaise **Lambda**) ya user jo **doosra kaam** karne ke liye **thoray waqt** ke liye permission leta hai. |
+| **Policy** | **Qanoon / Permissions** (JSON Document) | Yeh tay karta hai ki **User** ya **Role** ko kya karne ki **`Ijazat (Allow)`** hai (maslan, S3 bucket ko `Block Public Access` karna). |
+
+
+
+
+---
+
 ### 1. User (The Person)
 
 * **Aapka Khayal Sahi Hai:** User bilkul Ali, Bilal, ya aapke Dev team ke logon ki tarah hain.
