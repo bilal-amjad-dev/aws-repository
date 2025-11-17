@@ -45,6 +45,69 @@ Jab aap **Step 3** mein recording ON karenge, toh aapka automation flow shuru ho
 
 - aws config NEEDS a bucket to store 
 
+
+
+
+### 🟢 **Why We Need EventBridge? (Simple Explanation)**
+
+# AWS Config **sirf detect** karta hai →
+
+# Lambda **sirf execute** karta hai →
+
+# EventBridge simply acts as a bridge between Config and Lambda.
+
+## Security Hub → sab findings aik jaga dikha deta hai
+
+Lekin in dono ko **connect** karne wala banda kaun hai?
+
+👉 **EventBridge**
+
+EventBridge ka kaam:
+
+**“Jab AWS Config koi rule NON-COMPLIANT detect kare, turant Lambda ko bulao.”**
+
+Yani EventBridge aik **signal forwarder** hai.
+
+---
+
+                +----------------+
+                |   AWS Config   |
+                | Detects Issue  |
+                +--------+-------+
+                         |
+                         | Event (Misconfiguration Found)
+                         v
+                +----------------+
+                |  EventBridge   |
+                |  Pass Event    |
+                +--------+-------+
+                         |
+                         | Forward to Lambda
+                         v
+                +----------------+
+                |    Lambda      |
+                |  Fixes Issue   |
+                +--------+-------+
+                         |
+                         | Result / Action Taken
+                         v
+                +------------------------+
+                |     Security Hub       |
+                |  Shows All Findings    |
+                +------------------------+
+
+
+
+
+
+
+
+
+---
+
+
+
+
 > AWS Config ko ek jagah chahiye hoti hai apna data store karne ke liye
 
 <img width="978" height="571" alt="image" src="https://github.com/user-attachments/assets/21b48b22-2656-4a85-8bd6-e25b8998e2cd" />
