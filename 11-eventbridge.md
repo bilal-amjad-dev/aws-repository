@@ -21,6 +21,8 @@ Chalo simple Roman Urdu me samjhata hoon:
 
 # EventBridge simply acts as a bridge between Config and Lambda.
 
+## Security Hub → sab findings aik jaga dikha deta hai
+
 Lekin in dono ko **connect** karne wala banda kaun hai?
 
 👉 **EventBridge**
