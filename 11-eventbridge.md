@@ -2,7 +2,7 @@
 
 CloudWatchEvent triggers Lambda function
 
-Nov16, 2025.
+Nov17, 2025.
 
 
 Bilal, bohat **important question** poocha hai 👏
