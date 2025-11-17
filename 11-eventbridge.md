@@ -13,7 +13,7 @@ Chalo simple Roman Urdu me samjhata hoon:
 
 ---
 
-# 🟢 **Why We Need EventBridge? (Simple Explanation)**
+### 🟢 **Why We Need EventBridge? (Simple Explanation)**
 
 # AWS Config **sirf detect** karta hai →
 
