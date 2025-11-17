@@ -148,6 +148,67 @@ Agar chaho to main is diagram ko **image format** me bhi generate kar doon (clea
 
 
 
+---
+
+
+Great! Yahaan **super clean explanation + article-ready diagram text + 3-line summary** de raha hoon.
+
+Isko aap apne article me EXACT copy-paste kar sakte hain.
+
+---
+
+# ✅ **Article-Ready Diagram (Text Format)**
+
+You can paste this directly in your Medium article:
+
+bash```
+AWS Config  →  EventBridge  →  Lambda  →  Issue Fixed
+
+(1) AWS Config detects a misconfiguration  
+(2) EventBridge forwards the event to Lambda  
+(3) Lambda automatically applies the remediation  
+```
+
+---
+
+# ✅ **Article-Ready Clean Explanation (Roman Urdu + English Mix)**
+
+**AWS Config** AWS environment ko continuously monitor karta hai.
+
+Jab bhi koi resource misconfigured ho jaata hai, jaise S3 bucket public ho jaye,
+
+to AWS Config ek “NON-COMPLIANT” event generate karta hai.
+
+Lekin AWS Config **khud fix nahi karta**, sirf detect karta hai.
+
+Iss detection event ko handle karne ke liye **EventBridge** beech me "bridge" ka role play karta hai.
+EventBridge ka kaam simple hai:
+
+- AWS Config ne issue detect kiya?
+- EventBridge us alert ko catch karta hai
+- Phir automatically **Lambda ko trigger** kar deta hai
+
+**Lambda function** actual fixing karta hai, jaise:
+
+- Bucket ko wapas private kar dena
+- Insecure security group rule delete karna
+- Encryption enable karna
+- Open ports band kar dena
+- Root access disable karna
+
+---
+
+# 🔥 **Simple 3-Line Summary (Use in slides or article)**
+
+**AWS Config** → Detects
+
+**EventBridge** → Hands over alert
+
+**Lambda** → Fixes automatically
+
+---
+
+Chaho to main is topic ka **complete article** bhi write kar doon (intro, flow diagram, automation steps, conclusion, plus a real-life example).
 
 
 
