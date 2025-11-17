@@ -55,14 +55,26 @@ Aapki confusion ki wajah yahi thi:
 
 
 
+---
+
+
+Haan, aapki baat **bilkul sahi** hai!
+
+**Har Lambda function ka apna ek event JSON format hota hai** jise woh expect karta hai, aur isi wajah se aapke liye testing ke waqt sahi JSON dena zaroori tha.
+
+---
+
+## 💡 Event JSON Har Function Ke Liye Unique Kyun Hoti Hai?
+
+Lambda functions event-driven hote hain, iska matlab hai ki woh **kis service** se call ho rahe hain, uske hisaab se unka input (Event JSON) badalta rehta hai:
 
 
 
+**Nateeja:** Choonke aapka Lambda function **Security Hub** se data lene ke liye likha gaya tha, isliye aapko testing ke waqt **Security Hub jaisa JSON** dena zaroori tha, taaki code `bucket_name` ko theek se nikal sake.
 
 
 
 ---
-
 
 ### 🟢 **Why We Need EventBridge? (Simple Explanation)**
 
