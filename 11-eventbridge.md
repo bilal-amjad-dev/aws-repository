@@ -6,7 +6,9 @@ Nov17, 2025.
 
 
 Bilal, bohat **important question** poocha hai 👏
+
 **AWS Config + Lambda** ka flow tabhi complete hota hai jab beech me **EventBridge** ho.
+
 Chalo simple Roman Urdu me samjhata hoon:
 
 ---
