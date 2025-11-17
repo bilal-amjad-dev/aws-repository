@@ -35,6 +35,41 @@ Yani EventBridge aik **signal forwarder** hai.
 
 ---
 
+                +----------------+
+                |   AWS Config   |
+                | Detects Issue  |
+                +--------+-------+
+                         |
+                         | Event (Misconfiguration Found)
+                         v
+                +----------------+
+                |  EventBridge   |
+                |  Pass Event    |
+                +--------+-------+
+                         |
+                         | Forward to Lambda
+                         v
+                +----------------+
+                |    Lambda      |
+                |  Fixes Issue   |
+                +--------+-------+
+                         |
+                         | Result / Action Taken
+                         v
+                +------------------------+
+                |     Security Hub       |
+                |  Shows All Findings    |
+                +------------------------+
+
+
+
+
+
+
+
+
+---
+
 # 🟢 **Without EventBridge — Problem**
 
 Agar EventBridge na ho to:
