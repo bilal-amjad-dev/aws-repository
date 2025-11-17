@@ -100,6 +100,63 @@ Lambda functions event-driven hote hain, iska matlab hai ki woh **kis service** 
 **Nateeja:** Choonke aapka Lambda function **Security Hub** se data lene ke liye likha gaya tha, isliye aapko testing ke waqt **Security Hub jaisa JSON** dena zaroori tha, taaki code `bucket_name` ko theek se nikal sake.
 
 
+---
+
+### acha i think develper lambda function ki practice laptop pr krty hain naka cloud aws lambda pr, to wo dono chezian :
+- python code
+- event josn
+kasy write karain ga?
+wo to vs code ma to python code hi likh skty hain, event json kahan likhain gy?
+
+
+Aapka sawaal ek **developer** ke point of view se bilkul sahi aur practical hai! Yeh bahut zaroori hai samajhna ki real-world mein developers cloud par kaam karne se pehle apne laptop par **Local Development** kaise karte hain.
+
+Aapka kehna sahi hai ki **VS Code** mein sirf Python code likha jaa sakta hai, toh **Event JSON** ka kya karte hain?
+
+---
+
+## 💻 Local Development Aur Testing Ka Tareeqa
+
+Developers aam taur par **Serverless Frameworks** ya **AWS SAM (Serverless Application Model)** jaisi tools use karte hain. Yeh tools VS Code mein hi kaam karte hain aur dono cheezon (Code aur JSON) ko ek hi jagah manage karte hain:
+
+### 1. 📝 Python Code (Function Logic)
+
+* **Kahan Likha Jata Hai:** **VS Code** ke andar ek simple Python file (`lambda_function.py`) mein likha jaata hai.
+* **Kaam:** Jaise aapne `FixPublicS3Bucket` ka code likha, jismein `boto3` libraries use hoti hain.
+
+### 2. 🧪 Event JSON (Testing Input)
+
+* **Kahan Likha Jata Hai:** Event JSON ko aam taur par **ek alag file** mein save kiya jaata hai, jiska naam **`event.json`** ya **`test-payload.json`** rakha jaata hai.
+* **Kahan Save Hota Hai:** Yeh file bhi **VS Code project folder** ke andar hi maujood hoti hai.
+
+---
+
+## 🛠️ Local Testing Ka Mechanism (VS Code)
+
+Jab developer local testing karna chahta hai, toh woh yeh process follow karta hai:
+
+1.  **Framework Command:** Developer **VS Code Terminal** mein ek command chalaata hai (maslan, `sam local invoke`).
+2.  **Input Link:** Is command mein developer batata hai:
+    * **A)** Kaunsa **Python Code** chalaana hai (`lambda_function.py`).
+    * **B)** **Input** ke taur par kaunsi **JSON file** use karni hai (`test-payload.json`).
+3.  **Local Run:** Framework aapke laptop par ek chhota sa environment bana kar Python code ko chalaata hai, aur **`test-payload.json`** ka data `event` variable mein load kar deta hai.
+
+**Aapka Case (Security Hub):**
+
+Aapke developer ko **`test-payload.json`** file ke andar wohi complex **Security Hub JSON format** paste karna padega, jo humne AWS Console mein Test Event mein paste kiya tha. Is tarah, developer **Cloud par jaane se pehle hi** yakin kar leta hai ki uska code sahi input ke saath sahi tareeqe se kaam kar raha hai.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
