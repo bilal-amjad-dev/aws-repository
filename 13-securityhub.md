@@ -9,6 +9,26 @@ In security hub, we need:
 - and see Compliance Status Fail
 
 
+Question:
+
+acha mjy batao flow kia ha, ma khud banner bna lo ga. aws config -> eventbridge -> lambda right?
+
+wehre is security hub?
+
+---
+```bash
+AWS Config ---detect---> EventBridge ---trigger---> Lambda (Fix)
+       \
+        \--- send finding ---> Security Hub (Dashboard / Compliance)
+```
+
+**In One Line**
+
+**Security Hub fixing flow ka part nahi — sirf reporting aur compliance ka king hai.**
+
+
+---
+
 <img width="1055" height="574" alt="image" src="https://github.com/user-attachments/assets/7cc186af-a22c-4eb8-a67b-5132685c0283" />
 
 
