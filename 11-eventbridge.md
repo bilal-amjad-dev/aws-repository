@@ -15,9 +15,11 @@ Chalo simple Roman Urdu me samjhata hoon:
 
 # 🟢 **Why We Need EventBridge? (Simple Explanation)**
 
-AWS Config **sirf detect** karta hai →
+# AWS Config **sirf detect** karta hai →
 
-Lambda **sirf execute** karta hai →
+# Lambda **sirf execute** karta hai →
+
+# EventBridge simply acts as a bridge between Config and Lambda.
 
 Lekin in dono ko **connect** karne wala banda kaun hai?
 
