@@ -1,6 +1,19 @@
 17-nov-2025.
 
 
+**Think of it like a Security Camera System:**
+
+**AWS CloudTrail** is the **entire security system** that records everything that happens in the building all the time. It always has the last 90 days of footage handy in the system's memory.
+
+**A Trail** is like plugging an **external hard drive** into that system and telling it: "Save all the footage from now on to this hard drive, so I can keep it for years instead of just 90 days."
+
+The "trail" is just your instruction to AWS to put your logs into your own storage container (S3).
+
+
+
+---
+
+
 it means cloudtrail tracks activity? right
 
 Aap bilkul sahi keh rahe hain! Seedhay alfaaz mein:
