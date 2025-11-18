@@ -1,4 +1,7 @@
 
+- S3 bucket
+- Rule
+- Recorder
 
 
 
