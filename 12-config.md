@@ -1,7 +1,4 @@
 
-- S3 bucket
-- Rule
-- Recorder
 
 
 
@@ -9,8 +6,19 @@
 
 
 12-Nov-2025.
+
 13-nov-2025.
+
 18-nov-2025.
+
+---
+We have 3 things:
+
+- S3 bucket
+- Rule
+- Recorder
+
+---
 
 Bahut accha! Naye सिरे से शुरू करना hamesha accha hota hai.
 
