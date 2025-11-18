@@ -7,7 +7,7 @@
 
 12-Nov-2025.
 13-nov-2025.
-
+18-nov-2025.
 
 Bahut accha! Naye सिरे से शुरू करना hamesha accha hota hai.
 
@@ -45,8 +45,28 @@ Jab aap **Step 3** mein recording ON karenge, toh aapka automation flow shuru ho
 
 - aws config NEEDS a bucket to store 
 
+---
+
+in simple wrods , we can say:
+
+aws config ko hum aik rule daty hain, aur wo us rule ka mutabak spoitify krta rhta ha. 
+
+agr wo rule break hota ha, to wo alert bajta ha? right?
 
 
+
+
+
+Hum AWS Config ko ek rule (qanoon) dete hain, aur woh us rule ke mutabiq resources ko monitor karta rehta hai. Agar woh rule break hota hai, toh Config us resource ko NON-COMPLIANT mark kar deta hai, jo aage jaakar EventBridge ke zariye automation ko trigger karne ka kaam karta hai.
+
+
+
+
+
+
+
+
+---
 
 ### 🟢 **Why We Need EventBridge? (Simple Explanation)**
 
