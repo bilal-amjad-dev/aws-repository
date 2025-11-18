@@ -21,6 +21,21 @@ Aap bilkul sahi keh rahe hain! Seedhay alfaaz mein:
 **CloudTrail** ka kaam **activity** (kaam-kaaj) ko **track** karna hai.
 
 ---
+<img width="1600" height="900" alt="cloudtrail" src="https://github.com/user-attachments/assets/73e489c2-8323-43f6-ab87-9b0629adcb4b" />
+
+
+✔ Final Simple Concept (Very Easy Words)
+
+- AWS me jo bhi kaam hota ha, wo API call hoti ha.
+
+- CloudTrail in API calls ko record krta ha.
+
+- Logs S3 ya CloudWatch me jati hain.
+
+- Wahan se Lambda run ho sakta ha, jo alert bhej de ya action le le.
+
+
+---
 
 ## ✅ CloudTrail Ka Maqsad
 
