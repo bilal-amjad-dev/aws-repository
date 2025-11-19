@@ -8,12 +8,6 @@ This video is very helpful: CloudChamp: https://www.youtube.com/watch?v=C1MnZYzi
 
 
 
-```bash
-Effect: Allow (Han ya kr skta ha)
-Action: * (koi b action)
-Resource: * (koi bi resource)
-```
-
 
 
 
@@ -77,6 +71,14 @@ them in a group
 
 
 # Policy
+
+
+IAM policy ki statement:
+```bash
+Effect: Allow (Han ya kr skta ha)
+Action: * (koi b action)
+Resource: * (koi bi resource)
+```
 
 - Permissions are given to Users, Groups & Roles using Policies! 
 
