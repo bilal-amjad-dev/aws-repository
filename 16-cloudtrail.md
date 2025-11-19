@@ -95,7 +95,16 @@ Aapki baat kaafi hadd tak **sahi** hai, lekin terminology ko thoda sa durust (co
 
 
 
+---
 
+
+AWS Config checks CloudTrail continuously
+
+If CloudTrail is OFF, Config sends an alert
+
+That alert triggers Lambda
+
+Lambda turns CloudTrail ON again
 
 
 
