@@ -2,7 +2,23 @@
 
 CloudWatchEvent triggers Lambda function
 
+
+EventBridge simply acts as a bridge between Config and Lambda.
+
+<img width="1600" height="900" alt="63" src="https://github.com/user-attachments/assets/69a03327-a909-4f20-af4d-61b43b5c9e69" />
+<img width="1600" height="900" alt="62" src="https://github.com/user-attachments/assets/48500484-ad01-45c8-a1b2-e08dfd64738b" />
+<img width="1600" height="900" alt="61 " src="https://github.com/user-attachments/assets/a1c9d35e-4b54-47aa-92e7-51a6b8691c1c" />
+<img width="1600" height="900" alt="60 " src="https://github.com/user-attachments/assets/3ddfd642-3968-4f4d-9667-ef6d5741952d" />
+<img width="1600" height="900" alt="59" src="https://github.com/user-attachments/assets/b1285ed4-0ea1-42bc-8e26-fc58e73d965e" />
+<img width="1600" height="900" alt="58" src="https://github.com/user-attachments/assets/cfc204ce-a1f2-424e-a974-4a04ce19db90" />
+<img width="1600" height="900" alt="57" src="https://github.com/user-attachments/assets/c9797aa0-5386-4ae5-8312-c07126823295" />
+<img width="1600" height="900" alt="56" src="https://github.com/user-attachments/assets/e9ef4fa0-697f-42ca-a357-bb762225f0e9" />
+<img width="1600" height="900" alt="55" src="https://github.com/user-attachments/assets/7a733a28-2ef3-4b31-9f45-223a09222e5e" />
+
+
 Nov17, 2025.
+Nov19, 2025. 
+
 
 
 Bilal, bohat **important question** poocha hai 👏
