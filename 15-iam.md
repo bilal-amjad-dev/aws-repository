@@ -112,13 +112,26 @@ Steps to Implement the IAM Role:
 
 3. Name the Role: The role is named something descriptive, like "EC2-Access-S3".
 
-4. Attach the Role to the Instance: The newly created role is attached to the specific EC2 instance that needs the access.
+4. **Attach the Role to the Instance**: The newly created role is attached to the specific EC2 instance that needs the access.
 
 
 5. Verify Access: After the role is attached, the same AWS CLI command to list S3 buckets is run again on the EC2 instance. This time, it succeeds because the instance now has the necessary permissions granted by the IAM role.
 
 In summary: IAM roles are the best practice for giving AWS services the permissions they need to interact with each other securely, without the risk of exposing sensitive login credentials.
 
+
+### yani hum na role ec2 sa connect kia ha naky user sy right?
+
+You are absolutely correct.
+
+The key point of this method is that the **role is connected to the EC2 instance (an AWS Service)**, not to an individual IAM user or their specific access keys.
+
+Here’s a quick breakdown of why this distinction matters:
+
+- **User Credentials (Access Keys):** These are meant for individuals or applications running outside of the AWS environment to authenticate. They are long-term credentials and high-risk if exposed.
+
+- **IAM Roles (for Services):** These are designed for communication between AWS services (like EC2 talking to S3). AWS automatically manages temporary, frequently rotated credentials behind the scenes, making it much more secure than managing keys manually.
+So yes, by attaching the role to the EC2 instance, you securely granted permission for that specific virtual server to access the S3 bucket.
 
 ---
 
