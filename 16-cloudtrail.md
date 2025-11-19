@@ -57,6 +57,39 @@ Aap isay ek **Diary** ki tarah samajh sakte hain:
 * **Event** woh **chhoti unit** hai jo *CloudTrail* record karta hai.
 * **Log File** woh **badi file** hai jismein *bohat saare Events* jama kiye jaate hain (jab aap Trail banate hain aur usay S3 mein bhejte hain).
 
+---
+
+# it means every api is event. and collection of apis or event = log ??
+
+
+Aapka sawaal bohot achcha hai aur aap ab **CloudTrail** ke sabse aham (important) concept ko samajh rahe hain!
+
+Aapki baat kaafi hadd tak **sahi** hai, lekin terminology ko thoda sa durust (correct) karna zaroori hai:
+
+---
+
+## 💡 Farq (Difference)
+
+### 1. Event (واقعہ) Aur API Call
+
+* **Har API Call ek Event Banti Hai.**
+    * Jab aap koi kaam karte hain (maslan S3 bucket delete), toh woh ek **API Call** hoti hai.
+    * CloudTrail is API Call ko record karta hai, aur is record ko **Event** kehte hain.
+    * **Lihaza:** Hum keh sakte hain, **API Call** $\rightarrow$ **Event** (Record).
+
+### 2. Event Aur Log File
+
+* **Collection of Events = Log File (Log)**
+    * **Log File** ya **Log** ek chhati (file) hoti hai jismein ek khaas waqt ke **andar hone waale bohot saare Events** jama kiye jaate hain.
+    * CloudTrail in **Events** ko jama karke har ghante ya kuch waqt baad **S3 bucket** mein ek **Log File (ya Log)** ke roop mein bhejta hai.
+
+| Term | Ta'reef (Definition) |
+| :--- | :--- |
+| **API Call** | Woh action jo aap service se lete hain. |
+| **Event** | Woh **single record** jo CloudTrail ne us API Call ko track karke banaya. |
+| **Log (File)** | Woh **badi file** jismein bohot saare **Events** ikhatte (jama) hote hain. |
+
+**Nateeja:** Aapka kehna sahi hai: **Collection of Events = Log File.**
 
 
 
@@ -68,9 +101,8 @@ Aap isay ek **Diary** ki tarah samajh sakte hain:
 
 
 
-
-
-
+---
+---
 ---
 
 **Think of it like a Security Camera System:**
