@@ -1,5 +1,119 @@
 
 15-Nov-2025.
+19-Nov-2025.
+
+
+This video is very helpful: CloudChamp: https://www.youtube.com/watch?v=C1MnZYziA8k
+
+
+
+
+```bash
+Effect: Allow (Han ya kr skta ha)
+Action: * (koi b action)
+Resource: * (koi bi resource)
+```
+
+
+
+
+Give only required access, not more!
+
+<img width="1060" height="682" alt="iam1" src="https://github.com/user-attachments/assets/6f5419d4-f5e8-4ebb-8650-7e3a81d29270" />
+
+1. If you want to see that kon kon si permissions user ki mli hui hain to Aap `Permissions` tab ma ja kr dakh skty hain:
+
+
+<img width="153" height="55" alt="image" src="https://github.com/user-attachments/assets/f1020fa5-adc2-461e-9756-2287c0cca007" />
+
+2. If you want to see ka ya policy kia krti ha (**What this policy does**), you can click on policy and see: 
+
+<img width="1304" height="304" alt="image" src="https://github.com/user-attachments/assets/e043f85d-7902-4e97-b920-43ace006a5ec" />
+
+<img width="1290" height="562" alt="image" src="https://github.com/user-attachments/assets/7a950bc7-c4ac-4dbe-bfa1-5f56933846e3" />
+
+Ya
+
+Aap is icon (+) pa click kr ka b, dakh skty hain:
+
+<img width="1273" height="638" alt="image" src="https://github.com/user-attachments/assets/cbcc9922-9b17-4463-94f3-e9117f1bdb6f" />
+
+3. If you want to give access to any user/role, you need to attach a policy: 
+
+---
+
+# Group
+
+this is actually a best
+
+practice so rather than managing a user
+
+individually you can put them in a group
+
+and manage them all at once so now you
+
+can see when I click on Brian here Brian
+
+will have its own existing policies
+
+along with RDS full access which is
+
+provided by the group develop
+
+so now if there's an any new user who is
+
+also a developer rather than giving them
+
+access separately we can directly put
+
+them in a group
+
+
+
+
+
+---
+
+
+
+# Policy
+
+- Permissions are given to Users, Groups & Roles using Policies! 
+
+- I am policies are responsible to give permissions and define what can a user group and role access in your AWS account.
+
+- policies are Json documents that are attached to users groups or roles
+
+
+
+## Role:
+
+**The Problem:**
+
+An EC2 (virtual server) instance needs to read from or write to an S3 (storage) bucket. Initially, when a command to list S3 buckets is run on the EC2 instance using the AWS Command Line Interface (CLI), it fails. The error message says it cannot find credentials because it is unsafe to hardcode your secret access keys onto the server.
+
+**The Solution: Use an IAM Role**
+
+Instead of using keys, you use an IAM role to grant permissions. An IAM role is like a temporary set of permissions that you can assign to the EC2 instance.
+
+Steps to Implement the IAM Role:
+
+1. Create a Role: In the AWS Management Console, a new IAM role is created. You specify that this role is for the EC2 service.
+
+2. Attach a Policy: You then attach a policy to the role. A policy is a document that defines what the role is allowed to do. In this example, an "S3 Full Access" policy is selected, which allows the instance to perform any action on any S3 bucket.
+
+
+3. Name the Role: The role is named something descriptive, like "EC2-Access-S3".
+
+4. Attach the Role to the Instance: The newly created role is attached to the specific EC2 instance that needs the access.
+
+
+5. Verify Access: After the role is attached, the same AWS CLI command to list S3 buckets is run again on the EC2 instance. This time, it succeeds because the instance now has the necessary permissions granted by the IAM role.
+
+In summary: IAM roles are the best practice for giving AWS services the permissions they need to interact with each other securely, without the risk of exposing sensitive login credentials.
+
+
+---
 
 
 Bahut accha sawaal! Aapne S3 ki **Policy** ko **Permission** se joda, ab hum is concept ko poore AWS ki central permission system, **IAM (Identity and Access Management)**, par apply karte hain.
