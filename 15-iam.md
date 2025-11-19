@@ -15,25 +15,6 @@ Give only required access, not more!
 
 <img width="1060" height="682" alt="iam1" src="https://github.com/user-attachments/assets/6f5419d4-f5e8-4ebb-8650-7e3a81d29270" />
 
-1. If you want to see that kon kon si permissions user ki mli hui hain to Aap `Permissions` tab ma ja kr dakh skty hain:
-
-
-<img width="153" height="55" alt="image" src="https://github.com/user-attachments/assets/f1020fa5-adc2-461e-9756-2287c0cca007" />
-
-2. If you want to see ka ya policy kia krti ha (**What this policy does**), you can click on policy and see: 
-
-<img width="1304" height="304" alt="image" src="https://github.com/user-attachments/assets/e043f85d-7902-4e97-b920-43ace006a5ec" />
-
-<img width="1290" height="562" alt="image" src="https://github.com/user-attachments/assets/7a950bc7-c4ac-4dbe-bfa1-5f56933846e3" />
-
-Ya
-
-Aap is icon (+) pa click kr ka b, dakh skty hain:
-
-<img width="1273" height="638" alt="image" src="https://github.com/user-attachments/assets/cbcc9922-9b17-4463-94f3-e9117f1bdb6f" />
-
-3. If you want to give access to any user/role, you need to attach a policy: 
-
 ---
 
 # Group
@@ -80,11 +61,35 @@ Action: * (koi b action)
 Resource: * (koi bi resource)
 ```
 
+
+
+1. If you want to see that kon kon si permissions user ki mli hui hain to Aap `Permissions` tab ma ja kr dakh skty hain:
+
+
+<img width="153" height="55" alt="image" src="https://github.com/user-attachments/assets/f1020fa5-adc2-461e-9756-2287c0cca007" />
+
+2. If you want to see ka ya policy kia krti ha (**What this policy does**), you can click on policy and see: 
+
+<img width="1304" height="304" alt="image" src="https://github.com/user-attachments/assets/e043f85d-7902-4e97-b920-43ace006a5ec" />
+
+<img width="1290" height="562" alt="image" src="https://github.com/user-attachments/assets/7a950bc7-c4ac-4dbe-bfa1-5f56933846e3" />
+
+Ya
+
+Aap is icon (+) pa click kr ka b, dakh skty hain:
+
+<img width="1273" height="638" alt="image" src="https://github.com/user-attachments/assets/cbcc9922-9b17-4463-94f3-e9117f1bdb6f" />
+
+3. If you want to give access to any user/role, you need to attach a policy: 
+
+
+
 - Permissions are given to Users, Groups & Roles using Policies! 
 
 - I am policies are responsible to give permissions and define what can a user group and role access in your AWS account.
 
 - policies are Json documents that are attached to users groups or roles
+
 
 
 
