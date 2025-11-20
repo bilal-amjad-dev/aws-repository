@@ -1,3 +1,18 @@
+Nov20-2025.
+
+
+
+
+### 🎯 Best Title Recommendation
+The cleanest and most accurate option is:
+
+**“Automating IAM Access Key Rotation with AWS Lambda, EventBridge, and SNS Notifications”**
+
+Why?
+- **EventBridge** is the current AWS service name.  
+- **SNS Notifications** makes it clear that users will get alerts.  
+- It’s concise, professional, and Medium readers will immediately understand the stack.
+
 
 
 CloudWatchEvent triggers Lambda function
