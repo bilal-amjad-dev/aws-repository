@@ -2,17 +2,14 @@ Nov20-2025.
 
 
 
-### 🎯 Best Title Recommendation
-The cleanest and most accurate option is:
+### 🔍 Difference between CloudWatch and EventBridge
+- **CloudWatch Events** was the older name.  
+- **EventBridge** is the newer, more powerful service (it replaced CloudWatch Events).  
+- In practice, when you schedule a Lambda, you’re using **Amazon EventBridge Scheduler** (but many people still casually say “CloudWatch cron job”).  
 
-**“Automating IAM Access Key Rotation with AWS Lambda, EventBridge, and SNS Notifications”**
+👉 For your readers, it’s best to **pick one clear term** instead of mixing both.
 
-Why?
-- **EventBridge** is the current AWS service name.  
-- **SNS Notifications** makes it clear that users will get alerts.  
-- It’s concise, professional, and Medium readers will immediately understand the stack.
-
-
+---
 
 
 ---
