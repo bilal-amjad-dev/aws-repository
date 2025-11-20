@@ -14,7 +14,7 @@ Nov20-2025.
 
 i think eventbridge 2 kam krta ha:
 - aik to eventbridge simply acts as a bridge between 2 services
-- 2nd ya ka ya scheduler ka kam ba krta ha
+- 2nd ya ka ya scheduler (cron job) ka kam ba krta ha
 ---
 
 CloudWatchEvent triggers Lambda function
