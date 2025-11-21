@@ -99,7 +99,25 @@ agr ma chahta ho mera lambda function iam key rotate kry aur mjy sns notificatio
 - iamfullaccess
 - snsfullaccess
 
+for that i shouuld give permssions to lambda function. 
 
+us ka lia ma aik role create kro ga, aur wo role lambda function ka sath attach kr don ga.
+
+---
+
+To allow a Lambda function to rotate IAM keys and send an SNS notification, specific permissions must be attached to the function. 
+
+Here is an explanation:
+
+To enable a Lambda function to perform these tasks, I would need to attach the necessary permissions to it. These permissions would include IAM full access (or a more specific policy granting permission to manage access keys) and SNS full access (or a policy granting permission to publish messages). 
+
+I can achieve this by creating an IAM role with these permissions and associating that role with my Lambda function. This grants the function the authority it needs to execute these specific actions within my AWS environment.
+
+
+
+
+
+---
 
 **The Problem:**
 
