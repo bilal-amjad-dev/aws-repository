@@ -1,7 +1,7 @@
 
 15-Nov-2025.
 19-Nov-2025.
-
+21-Nov-2025.
 
 This video is very helpful: CloudChamp: https://www.youtube.com/watch?v=C1MnZYziA8k
 
@@ -94,6 +94,12 @@ Aap is icon (+) pa click kr ka b, dakh skty hain:
 
 
 ## Role:
+
+agr ma chahta ho mera lambda function iam key rotate kry aur mjy sns notification baj day to  uk ka lia mjy lambda function ka sath permissions attach krni ho gi:
+- iamfullaccess
+- snsfullaccess
+
+
 
 **The Problem:**
 
