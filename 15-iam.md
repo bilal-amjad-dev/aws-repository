@@ -111,7 +111,7 @@ Here is an explanation:
 
 To enable a Lambda function to perform these tasks, I would need to attach the necessary permissions to it. These permissions would include IAM full access (or a more specific policy granting permission to manage access keys) and SNS full access (or a policy granting permission to publish messages). 
 
-I can achieve this by creating an IAM role with these permissions and associating that role with my Lambda function. This grants the function the authority it needs to execute these specific actions within my AWS environment.
+I can achieve this by **creating an IAM role with these permissions** and **associating that role with my Lambda function**. This grants the function the authority it needs to execute these specific actions within my AWS environment.
 
 
 
