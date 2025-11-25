@@ -359,9 +359,13 @@ Yeh sabse **realistic industry approach hai**.
 Aap jo likh rahe ho:
 
 ✔ Correct
+
 ✔ Professional
+
 ✔ Industry standard
+
 ✔ Beginner-friendly
+
 ✔ Real-world automation example
 
 Perfect for an article.
