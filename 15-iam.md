@@ -2,6 +2,7 @@
 15-Nov-2025.
 19-Nov-2025.
 21-Nov-2025.
+25-Nov-2025.
 
 This video is very helpful: CloudChamp: https://www.youtube.com/watch?v=C1MnZYziA8k
 
@@ -226,4 +227,116 @@ Role ek **bahut khaas** concept hai.
 **Aapka Automation Flow Is Tarah Chalta Hai:**
 
 **Role** (LambdaS3RemediationRole) + **Policy** (S3 ko theek karne ki ijazat) → **Lambda** use assume karta hai → Fix shuru hota hai.
+
+
+
+
+
+---
+---
+---
+---
+---
+
+
+Aap ne sahi question poocha:
+**Industry standard kya recommend karti hai, aur mujhe kya karna chahiye?**
+
+---
+
+# ✅ **What YOU Should Do (Industry Standard Follow)**
+
+Aap real-world best practice ke mutabiq ye kaam karo:
+
+## **1️⃣ IAM Access Analyzer Enable karo**
+
+Ye AWS ko bolega:
+
+> “Mujhe batayo kaun se IAM roles/policies HAD se zyada permissions rakhti hain.”
+
+✔ No risk
+✔ No cost
+✔ Beginner-friendly
+
+---
+
+## **2️⃣ Lambda ya SNS se AUTOMATIC REMOVAL mat karo**
+
+Industry standard ke mutabiq:
+
+❌ Lambda directly policy remove nahi karta
+✔ Lambda sirf **alert** karta hai
+
+Iska matlab:
+
+* Access Analyzer findings aayi
+* Lambda check karta
+* Agar koi role over-permissive ho
+  → Email/SNS notification bhej deta
+
+Bas.
+
+Policy change **human approve karke manually karta hai.**
+
+---
+
+## **3️⃣ You write a small blog (flow):**
+
+### Step 1 – Enable IAM Access Analyzer
+
+### Step 2 – Create an SNS topic for notifications
+
+### Step 3 – Lambda reads findings
+
+### Step 4 – SNS email alert jata hai
+
+### Step 5 – Security engineer manually review and fix
+
+Ye 100% professional workflow hai.
+
+---
+
+# ⭐ **Suggested Project Title (Choose One)**
+
+### 1️⃣
+
+**Secure IAM Permissions Detection using Access Analyzer + Lambda (Industry Standard Approach)**
+
+### 2️⃣
+
+**Automatic IAM Permission Auditing – Alerts Without Auto Changes**
+
+### 3️⃣
+
+**How AWS Companies Detect Over-Permissive IAM Policies in Real World**
+
+### 4️⃣
+
+**Security Best Practice: IAM Access Analyzer + Lambda Alerting Workflow**
+
+### 5️⃣
+
+**No More Dangerous IAM Policies – Automated Detection with Safe Notifications**
+
+---
+
+# ⭐ Beginner-Friendly Article Intro (Simple English)
+
+```{"id":"72810","variant":"standard"}
+In real companies, IAM permissions are not changed automatically by scripts. Instead, AWS Access Analyzer is used to detect over-permissive IAM policies, and Lambda sends alerts to the security team. After review, the engineer updates the policy manually. This is the safest and most professional workflow used in the industry.
+```
+
+---
+
+# ⭐ If You Want, I Can Provide
+
+Just tell me what you need next:
+
+1. Lambda code that sends alert only
+2. Step-by-step screenshot guide
+3. Diagram
+4. Full article body written in simple English
+5. Commands & configuration
+
+Which one do you want?
 
