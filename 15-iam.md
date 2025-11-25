@@ -252,6 +252,129 @@ IAM Access Analyzer ke teen (3) main kaam yahi hain:
 ---
 
 
+### Question
+
+```bash
+yani 
+
+hamary article ma ya ho rha ha?
+
+
+IAM Access Analyzer na:
+- scan kia
+- detect kia
+- finding generate ki
+
+
+eventbridge ka pass finding aai us na lambda trigger kia
+
+
+lambda na sns notification send kia 
+
+
+is it INDUSTRY STANDARD?
+```
+
+
+Bilkul **100% sahi samjha** – aur haan, **yehi industry standard approach hai.**
+
+---
+
+# 👍 Aapke Article mein kya ho raha hai?
+
+### 1️⃣ IAM Access Analyzer ne:
+
+* Account ko scan kiya
+* Over-permissive policy detect ki
+* Ek **finding generate ki** (alert)
+
+### 2️⃣ EventBridge ne:
+
+* Analyzer finding ko dekha
+* Lambda function ko trigger kar diya
+
+### 3️⃣ Lambda ne:
+
+* Finding read ki
+* SNS ko alert bhej diya (email)
+
+✔ Result → User ko security alert email mil gaya.
+
+---
+
+# 🤝 Real-World (Industry Standard)
+
+Yes, **ye exactly industry standard hai** — normally companies:
+
+* IAM Access Analyzer chalaati hain
+* EventBridge/Lambda automation banati hain
+* Team ko alert milta hai
+* Human review karke fix karta hai
+
+⚙ Why?
+
+Because:
+
+* IAM over-permissive policies **security risk hoti hain**
+* Automation ensures:
+
+  * Continuous monitoring
+  * No manual checking
+  * Instant notifications
+
+Large companies like:
+
+* Amazon
+* Netflix
+* Google
+* Deloitte
+* Uber
+
+sab **isi pattern pe automation banate hain**.
+
+---
+
+# 🧠 Why Not Auto-Fix?
+
+Industry mein:
+
+* Alerts automated
+* Policy fixing mostly manual
+
+Because:
+
+❗ Automatic policy editing may break production
+So they:
+
+* Detect automatically
+* Alert
+* Human (security/DevOps team) review and fix
+
+Yeh sabse **realistic industry approach hai**.
+
+---
+
+# 📌 Final Confirmation
+
+Aap jo likh rahe ho:
+
+✔ Correct
+✔ Professional
+✔ Industry standard
+✔ Beginner-friendly
+✔ Real-world automation example
+
+Perfect for an article.
+
+
+
+
+---
+---
+---
+---
+---
+
 Aap ne sahi question poocha:
 **Industry standard kya recommend karti hai, aur mujhe kya karna chahiye?**
 
