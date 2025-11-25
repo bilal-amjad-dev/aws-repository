@@ -239,6 +239,19 @@ Role ek **bahut khaas** concept hai.
 ---
 
 
+### What is IAM Access Analyzer?
+
+Jee bilkul, aap **bilkul theek** keh rahe hain! ✔️
+
+IAM Access Analyzer ke teen (3) main kaam yahi hain:
+
+1.  **Scan Krta Hai:** Aapke AWS account mein maujood **IAM policies** ko check karta hai.
+2.  **Detect Krta Hai:** **Risky** ya **unnecessary access** waali permissions (over-permissive roles) ko dhoondta hai.
+3.  **Report Bana Kr Deta Hai:** In issues ko **"findings"** ki shakal mein aapko report karta hai taake aap unhe theek kar saken.
+
+---
+
+
 Aap ne sahi question poocha:
 **Industry standard kya recommend karti hai, aur mujhe kya karna chahiye?**
 
