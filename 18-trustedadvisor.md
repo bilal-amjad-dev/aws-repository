@@ -2,6 +2,9 @@
 November 26, 2025. 
 
 
+<img width="945" height="708" alt="trustedadvisor article 1" src="https://github.com/user-attachments/assets/f697d517-c127-43b4-8049-40d6b75569b7" />
+
+
 
 ### Trusted Advisor Ko Bilkul Simple Language Mein Samjho (Jaise Dost Ko Samjha Raha Hoon)
 
